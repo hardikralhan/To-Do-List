@@ -14,6 +14,7 @@ function App() {
       // prevItems array hai
       return [...prevItems, itemName]; // purani list rahe whenever you click button and new item should add
     });
+    setItemName("");
   }
 
   return (
